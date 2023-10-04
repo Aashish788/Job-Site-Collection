@@ -1,0 +1,155 @@
+* {
+margin: 0;
+padding:0;
+font—family: Roboto, sans—serif;
+}
+h1{
+    color: #eeebe4f6;
+    font-size: 50px;
+    position: relative;
+    top: 20%; left: 10%;
+}
+.container{
+width: 100 %;
+
+background-image: url(/img.jpg);
+background-position: center;
+background-size:cover;
+background-attachment: scroll;
+overflow-x: hidden;
+}
+.navbar{
+    height: 11%;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    width: 50px;
+     cursor: pointer;
+     position: absolute;
+     top: 4%; right: 3%;
+}
+.menu-icon{
+    width: 30px;
+    cursor:pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    position: absolute;
+    top: 5%; right: 10%;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    font-size: medium;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    height: 88%;
+}
+
+p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    
+}
+/* button{
+    padding: 7px 50px;
+    color: #000;
+    background: #fff;
+    border: 0;
+    outline: none;
+    margin-top: 20 px;
+    border-radius: 42px;
+    font-size: 18px;
+    position: absolute;
+    top: 85%; right: 10%;
+} */
+.card{
+    width: 200px;
+    height: 230px;
+  display:inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 15px;
+    margin-bottom: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+background-position: center;
+background-size: cover;
+transition: transform 0.5s;
+position: relative;
+
+}
+
+.card1{
+background-image: url(/unstop.png);
+opacity: 0.7;
+}
+/* .card1:hover{
+    opacity: 0.7; */
+
+.card2{
+    background-image: url(/foundit.png);
+    opacity: 0.7;
+}
+.card3{
+    background-image: url(/naukrii.png);
+    opacity: 0.7;
+   
+}
+.card4{ 
+    background-image: url(/cuvette.png);
+    opacity: 0.7;
+}
+    .card5{
+        background-image: url(/naukrii.png);
+        opacity: 0.7;
+    }
+     .card6{
+            background-image: url(/naukrii.png);
+            opacity: 0.7;
+}
+
+
+.card7{
+    background-image: url(/cuvette.png);
+    opacity: 0.7;
+}
+
+
+.card8{
+    background-image: url(/unstop.png);
+    opacity: 0.7;
+}
+
+ .card:hover{
+    transform: translateY(-10px);
+ }
+h5{
+    color: #fff;
+    text box-shadow: 0 0 5px #999;
+}
+
+.card p {
+    text box-shadow: 0 0 15px #000;
+    font size: 8px;
+}
+
+.section2{
+    height: 60vh;
+    width: 100vh;
+}
