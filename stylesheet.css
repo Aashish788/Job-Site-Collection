@@ -5,18 +5,19 @@ font—family: Roboto, sans—serif;
 }
 h1{
     color: #eeebe4f6;
-    font-size: 50px;
+    font-size: 4vh;
     position: relative;
-    top: 20%; left: 10%;
+    top: 5vh; left: 2vh;
 }
 .container{
-width: 100 %;
+width: 100vw;
 background-image: url(/img.jpg);
 backdrop filter: blur(10px);
 background-position: center;
 background-size:cover;
 background-attachment: scroll;
 overflow-x: hidden;
+overflow: hidden;
 }
 .navbar{
     height: 11%;
@@ -68,7 +69,7 @@ p{
 }
 
 .card{
-    width: 19vh;
+    width: 20vh;
     height: 25vh ;
   display:inline-block;
     border-radius: 10px;
