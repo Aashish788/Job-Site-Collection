@@ -11,7 +11,6 @@ h1{
 }
 .container{
 width: 100 %;
-
 background-image: url(/img.jpg);
 backdrop filter: blur(10px);
 background-position: center;
@@ -69,8 +68,8 @@ p{
 }
 
 .card{
-    width: 200px;
-    height: 230px;
+    width: 19vh;
+    height: 25vh ;
   display:inline-block;
     border-radius: 10px;
     cursor: pointer;
