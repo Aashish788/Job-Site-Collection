@@ -30,7 +30,7 @@ overflow: hidden;
     width: 50px;
      cursor: pointer;
      position: absolute;
-     top: 4%; right: 3%;
+     top: 7%; right: 3%;
 }
 .menu-icon{
     width: 30px;
@@ -38,14 +38,14 @@ overflow: hidden;
 }
 nav{
     flex: 1;
-    text-align: right;
+    text-align: start;
     position: absolute;
-    top: 5%; right: 10%;
+    top: 3%; 
 
 }
 nav ul li{
     list-style: none;
-    display: inline-block;
+    display: inline;
     margin-left: 60px;
     font-size: medium;
 
